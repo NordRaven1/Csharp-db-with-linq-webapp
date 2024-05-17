@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Disk">
+  <DataContextMoniker Name="/DiskDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d663752d-f0d1-4d98-872f-49c7f275ec50" absoluteBounds="4.125, 1.25, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/DiskDataContext/Disk" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d3e2bc99-97d4-4cfc-a0a4-e796998fd95b" absoluteBounds="4.14, 1.71, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

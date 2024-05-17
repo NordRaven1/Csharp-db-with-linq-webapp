@@ -1,0 +1,6 @@
+C:\Users\nordr\source\repos\DiskManagement\DiskManagementEntities\bin\Debug\DiskManagementEntities.dll
+C:\Users\nordr\source\repos\DiskManagement\DiskManagementEntities\bin\Debug\DiskManagementEntities.pdb
+C:\Users\nordr\source\repos\DiskManagement\DiskManagementEntities\obj\Debug\DiskManagementEntities.csproj.AssemblyReference.cache
+C:\Users\nordr\source\repos\DiskManagement\DiskManagementEntities\obj\Debug\DiskManagementEntities.csproj.CoreCompileInputs.cache
+C:\Users\nordr\source\repos\DiskManagement\DiskManagementEntities\obj\Debug\DiskManagementEntities.dll
+C:\Users\nordr\source\repos\DiskManagement\DiskManagementEntities\obj\Debug\DiskManagementEntities.pdb

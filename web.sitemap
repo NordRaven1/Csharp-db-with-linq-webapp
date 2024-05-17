@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true">
+    <siteMapNode title="Home" description="Contoso Customer Management Home Page" url="~/Default.aspx" roles="*">
+        <siteMapNode title="Customers" description="">
+            <siteMapNode title="New" description="Create New Customer" url="~/InsertCustomer.aspx" />
+        </siteMapNode>
+        <siteMapNode title="Countries" description="">
+        </siteMapNode>
+        <siteMapNode title="Help" description="">
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>

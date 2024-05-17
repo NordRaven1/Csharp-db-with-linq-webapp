@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DiskManagement.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server" id="MainHead">
+    <title>Учёт дисков</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="template">
+    <form id="MainForm" runat="server">
+        <div class="appTitle">
+            <asp:Literal ID="AppTitleLiteral" runat="server" Text="Учёт дисков"></asp:Literal>
+        </div>
+        <div class="siteMapPath">
+            <asp:SiteMapPath ID="MainSiteMapPath" runat="server" />
+        </div>
+        <div class="menu">
+            <asp:Menu ID="MainMenu" runat="server" Orientation="Horizontal"
+                StaticEnableDefaultPopOutImage="False" DataSourceID="MainSiteMapDataSource">
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <StaticHoverStyle BackColor="White" ForeColor="Black" />
+                <DynamicHoverStyle BackColor="White" ForeColor="Black" />
+                <DynamicMenuItemStyle ItemSpacing="2px" HorizontalPadding="5px" VerticalPadding="2px" />
+            </asp:Menu>
+        </div>
+        <asp:SiteMapDataSource ID="MainSiteMapDataSource" runat="server" ShowStartingNode="false" />
+        <ajaxToolKit:ToolkitScriptManager ID="MainScriptManager" runat="server" />
+        <div class="content">
+            <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

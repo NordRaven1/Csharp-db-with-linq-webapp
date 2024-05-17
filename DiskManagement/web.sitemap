@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true">
+    <siteMapNode title="Главная" description="Главная страница" url="~/Default.aspx" roles="*">
+        <siteMapNode title="Диски" description="">
+            <siteMapNode title="Новый" description="Добавить новый диск" url="~/InsertDisk.aspx" />
+          <siteMapNode title="Список" description="Посмотреть все диски" url="~/Disks.aspx" />
+        </siteMapNode>
+        <siteMapNode title="О программе" description="Контекст разработки" url="~/InfoPage.aspx">
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>
